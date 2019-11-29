@@ -21,10 +21,13 @@
     <button type="submit" onclick="oneClic()">Valider</button>
   </form>
   <script type="text/javascript">
+  //definition de la fonction qui affiche les valeurs entrées par l'utilisateur
   function oneClic(){
+    //déclaration des variables contenant les valeurs saisies par l'utilisateur
     var lastname=document.getElementById("lastname").value ;
     var firstname=document.getElementById("firstname").value ;
-    var city=document.getElementById("city").value ; // Fonction appelée par le bouton
+    var city=document.getElementById("city").value ;
+    var regexText = 
     alert("Nom : " + lastname + "\nPrénom : " + firstname + "\nVille : " + city);
   }
   </script>
